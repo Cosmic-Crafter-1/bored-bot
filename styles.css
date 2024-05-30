@@ -1,0 +1,53 @@
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	box-sizing: border-box;
+	margin: 0;
+	font-size: 18px;
+	background-color: black;
+}
+
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+
+	background-color: gold;
+	border: 1px solid black;
+	width: 50%;
+    height: 70%;
+	max-height: 450px;
+    max-width: 500px;
+	padding: 20px;
+	border-radius: 20px;
+}
+
+#activities-area {
+	color: purple;
+}
+
+#generate-btn {
+	border-radius: 50%;
+	height: 45%;
+	font-size: inherit;
+	cursor: pointer;
+    flex-shrink: 0;
+
+	background-color: white;
+	color: black;
+}
+
+#generate-btn:hover {
+	background-color: lightgoldenrodyellow;
+	color: black;
+}
+
+#generate-btn:active {
+	transform: translate(2px, 3px);
+}
